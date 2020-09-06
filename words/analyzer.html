@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src= "analyzer.js"></script>
+		<script src = "palindrome.js"></script>
+	</head>
+
+<body style = "background-color:#ccffff;" >
+	<h1>Text Analyzer</h1>
+	<p>The text analyzer analyzes text you put into the input, and shows you the frequency of individual words or letters.</p>
+	<br>
+	<textarea id = "text" rows = "5" cols = "35" style = "background-color:#ccffff;"></textarea>
+	<br>
+	<br>
+	<button style = "background-color:#ccffff" type = "button" onclick = "analyze(text.value)">Analyze Words!</button>
+	<button style = "background-color:#ccffff" type = "button" onclick = "analyzeLetters(text.value)">Analyze Letters!</button>
+	<button style = "background-color:#ccffff" type = "button" onclick = "isPalindrome(text.value)">Is Palindrome</button>
+	<br>
+	<button style = "background-color:#ccffff" type = "button" onclick = "clearStuff())">Clear</button>
+	<br>
+	<div id = "out"></div>
+	<br>
+	<br>
+
+</body>
+
+</html>
