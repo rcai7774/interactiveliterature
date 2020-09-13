@@ -1,0 +1,35 @@
+	body{
+		background-color:#ccffff;
+	}
+	#ouch{
+				font-family: Lucida Sans Unicode;
+				font-style: italic;
+				color: white;
+				border: thin solid DarkBlue;
+				background-color: DarkCyan;
+				
+			}
+			#location{
+				font-family: Lucida Sans Unicode;
+				font-style: italic;
+				color: white;
+				background-color: DarkCyan;
+			}
+			#temp{
+				font-family: Lucida Sans Unicode;
+				font-style: italic;
+				color: white;
+				background-color: DarkCyan;
+			}
+			#description{
+				font-family: Lucida Sans Unicode;
+				font-style: italic;
+				color: white;
+				background-color: DarkCyan;
+			}
+			#type{
+				font-family: Lucida Sans Unicode;
+				font-style: italic;
+				color: white;
+				background-color: DarkCyan;
+			}
